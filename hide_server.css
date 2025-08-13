@@ -1,0 +1,4 @@
+div[class^=folderGroup]:has([data-dnd-name^="FFXIV"]),
+div[class^=folderGroup]:has([data-dnd-name^="●"]) {
+	display: none !important;
+}

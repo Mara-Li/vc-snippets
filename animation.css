@@ -1,0 +1,12 @@
+[class^=confetti] {
+	display: none !important;
+}
+
+[class*=friendsBadge]:is([class*=selected]),
+[class*=friendsBadge]:hover {
+	background: var(--bg-overlay-hover, var(--background-modifier-hover)) !important;
+}
+
+[class*=friendsBadge]:not(:is([class*=selected])):not(:hover) {
+	background: unset !important;
+}
